@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 225, 225);
+}
+nav{
+    display: flex;
+}
+.logo{
+    color: rgb(28, 141, 161);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin:  2rem;
+}
+.list{
+    margin: 0 10rem;
+   
+}
+.list ul{
+    display: flex;
+    margin:  2rem;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.2rem;
+    list-style: none;
+    font-weight: 100; 
+    
+}
+.btn{
+margin: 2rem;
+}
+.btn1{
+    height: 2rem;
+    width: 7rem;
+   border: none;
+   background-color: black;
+   color: white;
+   border-radius: 7px;
+}
+.btn2{
+    height: 2rem;
+    width: 7rem;
+    border: none;
+}
+section{
+    display: flex;
+}
+.left{
+height: 3rem;
+width: 50%;
+height: 35rem;
+}
+
+.txt span {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    margin: 2rem;
+}
+.txt p{
+    margin: 4rem;
+}
+.txt button{
+    margin: 0 2rem;
+    height: 4rem;
+    width: 17rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 21rem;
+
+}
+.txt button:hover{
+    background-color: rgb(26, 8, 63);
+    transition: 0.3s all ease;
+}
+.as{
+    color: rgb(28, 141, 161);
+    margin: 2rem;
+}
+.right{
+ height:35rem;
+ width: 50%;
+ display: flex;
+justify-content: flex-start;
+}
+.right img{
+    height: inherit;
+    
+}
+.Text{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem;
+}
+.cards{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.card{
+    height: 10rem;
+    width: 20rem;
+    border-radius: 12px;
+    box-shadow:10px 20px 40px grey;
+    text-align: center;
+    background-color: white;
+    transition: all 0.3s ease;
+    margin: 1rem;
+    
+    
+}
+.card:hover{
+    box-shadow: none;
+    
+}
+.card h5{
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.35rem;
+    margin: 1rem;
+    
+}
+.Text1{
+    margin: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    
+.btnss{
+    margin: 0 2rem;
+}
+.btn12{
+height: 2rem;
+padding: 0 2rem;
+
+border-radius: 1rem;
+border: none;
+background-color: rgb(204, 204, 204);
+font-family:  'Arial Narrow', Arial, sans-serif;
+font-size: 1rem;
+font-weight: 500;
+margin: 1rem 1rem;
+}
+.imgcards{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap ;
+
+}
+.cards1{
+    height: 23rem;
+    width: 17rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 10px 20px 40px grey;
+    transition: all 0.3s ease;
+    margin: 1rem;
+}
+.cards1:hover{
+    box-shadow: none;
+}
+.cards1 img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    margin-top: 2rem;
+   
+}
+.info{
+ width: 13rem;
+ margin: 2rem;
+ display: flex;
+}
+
+.info1{
+    width: 70%;
+  
+}
+
+
+.info1 h5{
+   font-size: 1.5rem;
+   font-weight: 900;
+   
+}
+.info1 p{
+color: blue;
+margin: .54rem 0;
+}
+.sa{
+  color:   #989898;
+  width: 30%;
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+.item{
+    border: 1px solid red ;
+    width: 100%;
+    height: 2rem;
+}
+
+.btnq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+.btnq button{
+ width: 8rem;
+ height: 3rem;
+ border: none;
+ border-radius: 12px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #bcb9b9;
+}
+.btnq button:hover{
+    background-color: rgb(17, 17, 129);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+.bst{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem;
+}
+.sellers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.seller{
+    height: 6rem;
+    width: 17rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+   background-color: #ffffff;
+   box-shadow: 10px 20px 40px grey;
+   transition: 0.5s all ease;
+   margin-bottom: 4rem;
+}
+.seller:hover{
+    box-shadow: none;
+}
+.seller img{
+    height: 5rem;
+    margin: 0 1rem;
+
+}
+
+.nm h5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nm p{
+    font-size: 15px;
+    margin-top: 0.5rem;
+}
+footer{
+    background-color: black;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+}
+footer h1{
+    color: white;
+    width: 40%;
+    margin: 0 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.rights{
+    width: 50%;
+}
+.rights ul{
+    display: flex;
+    justify-content: space-around;
+}
+.rights li{
+    color: white;
+    list-style: none;
+}
+.rights p{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+}
+
+@media  screen and (max-width:320px){
+    .logo{
+        margin: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+    .list{
+        display: none;
+    }
+    .list ul{
+
+        display: none;
+    }
+    .list li{
+
+        display: none;
+    }
+    .btn{
+        
+        display: none;
+    }
+    .btn1{
+       
+        display: none;
+    }
+    .btn2{
+    
+        display: none;
+    }
+    section{
+                display: flex;
+                flex-direction: column;
+    }
+    .left{
+        
+        width: 100%;
+        height: fit-content;
+       
+    }
+    .txt span{
+        font-size: 2rem;
+    }
+    
+    .txt button{
+        width: 5rem;
+        margin: 0 7rem;
+        border-radius: 12px;
+        height: 2rem;
+    }
+    .right{
+        width: 100%;
+    }
+    .right img{
+        height: 20rem;
+        width: 100%
+        
+    }
+    .Text{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+      
+    
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+    .Text1{
+      width: 100%;
+      margin: 1rem 0;
+      text-align: center;
+    }
+    .btnss{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        margin: 1rem 0;
+    }
+    .btn12{
+       border-radius: 14px;
+       
+    }
+    .imgcards{
+flex-direction: column;
+  align-items: center;
+
+}
+.cards1{
+    margin: 2rem 0;
+
+}
+
+
+
+.sellers{
+    flex-direction: column;
+    align-items: center;
+}
+.seller{
+    margin: 1rem 0;
+}
+
+footer h1{
+    
+   
+    font-size: 1rem;
+}
+.rights ul{
+    
+    
+    flex-direction: column;
+    margin-top: 2rem;
+}
+}
+@media screen and ( max-width:375px){
+.logo{
+    font-size: 1rem;
+    margin:0 0 ;
+    margin-bottom: 3rem;
+} 
+    .list,.list ul,.list li,.btn{
+        display: none;
+    
+}
+section{
+    flex-direction: column;
+}
+.left{
+    width: 100%;
+    height: fit-content;
+}
+.txt{
+    text-align: center;
+}
+.txt span{
+    font-size: 3rem;
+    margin: 0;
+}
+.txt button{
+   width: 5rem;
+   height: 3rem;
+}
+.right{
+    height:25rem
+    
+}.right img{
+    height: 23rem;
+}
+.cards{
+    flex-direction: column;
+    align-items: center;
+   
+}
+.card{
+    margin-bottom: 2rem;
+}
+.btnss{
+    flex-direction: row;
+    display: flex;
+    margin: 0 0;
+    overflow: scroll;
+}
+.bthn12{
+    width: 100%;
+    padding: 2rem;
+}
+.imgcards{
+    flex-direction: column;
+    align-items: center;
+}
+.bst{
+    text-align: center;
+}
+.cards1{
+    margin-bottom: 2rem;
+}
+.sellers{
+    flex-direction: column;
+    align-items: center;
+}
+footer h1{
+    font-size: 1rem;
+}
+.rights ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.rights p{
+    margin: 1rem;
+}
+}
+@media screen and (max-width:425px) {
+    .logo{
+        font-size: 1rem;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    .list li,.btn{
+        display: none;
+    }
+    .txt span{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .left{
+        width: 100%;
+    }
+    .txt{
+        width: 100%;
+        text-align: center;
+    }
+    .txt span,p{
+    
+
+    }
+    .txt button{
+        width: 5rem;
+        height: 3rem;
+    }
+    .right{
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+    }
+    section,.cards,.imgcards,.sellers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card,.cards1{
+        margin-bottom: 2rem;
+    }
+    .btnss{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+    }
+    .rights ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .Text,.Text1,.bst{
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+    }
+    footer h1{
+    font-size: 1rem;
+    }
+}
+@media  screen and (max-width:770px){
+    .logo{
+       
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    .list ul,.btn{
+        display: none;
+    }
+    section{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .txt{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .btnss{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+    }
+    .Text,.Text1,.bts{
+        text-align: center;
+    }
+}
+@media  screen and (max-width:1000px){
+    section{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .txt{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+      
+    }
+    .right img{
+        width: 100%;
+        object-fit: contain;
+    }
+}

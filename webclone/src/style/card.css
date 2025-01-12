@@ -1,0 +1,24 @@
+.card-container {
+  display: flex;
+}
+
+.card {
+  width: 33%;
+  text-align: center;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  height: 20%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img {
+  width: 60%;
+  margin-top: 0.5rem;
+  border-radius: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.card:hover {
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid rgb(189, 189, 189);
+}

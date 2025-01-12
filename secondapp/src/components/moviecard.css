@@ -1,0 +1,25 @@
+.movie-card {
+  background-color: #61dafb;
+  width: 30%;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.movie-card .title {
+  font-weight: 900;
+  text-align: center;
+}
+
+.movie-card .desc {
+  font-size: 0.5em;
+  font-weight: 400;
+}
+
+.movie-card .price {
+  font-size: 0.8em;
+  font-weight: 600;
+}
