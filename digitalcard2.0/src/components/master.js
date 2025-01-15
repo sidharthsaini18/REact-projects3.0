@@ -1,13 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import FrontCard from "./frontcard";
 import "./master.css";
 import BackCard from "./backcard";
 const Master = () => {
+  const [toggle, settoggle] = useState("front");
   return (
     <div className="master">
-      <FrontCard />
+      {toggle == "front" && (
+        <div
+          onClick={() => {
+            settoggle("back");
+          }}
+        >
+          <FrontCard />
+        </div>
+      )}
 
-      <BackCard />
+      {toggle == "back" && (
+        <div
+          onClick={() => {
+            settoggle("front");
+          }}
+        >
+          <BackCard />
+        </div>
+      )}
     </div>
   );
 };

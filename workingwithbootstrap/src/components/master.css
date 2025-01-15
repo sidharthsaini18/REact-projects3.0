@@ -1,0 +1,11 @@
+.hero {
+  height: 100dvh;
+}
+
+.btn-primary {
+  background-color: blueviolet;
+}
+
+.btn-primary:hover {
+  background-color: rgb(226, 43, 171);
+}
