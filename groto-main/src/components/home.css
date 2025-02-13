@@ -1,0 +1,28 @@
+/* Home.css */
+.header {
+  /* background-image: url("/icons/profile-1.png"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-medium {
+  max-width: 600px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the carousel */
+  max-height: 600px;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+} */

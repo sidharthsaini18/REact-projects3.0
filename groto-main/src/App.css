@@ -1,0 +1,9 @@
+.footer {
+  color: rgb(147, 148, 146);
+}
+.filter-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other elements */
+}
