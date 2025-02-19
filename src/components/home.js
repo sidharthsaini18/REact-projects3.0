@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <div className="container-fluid">
-      <header className="bg-dark text-white text-center p-5">
+      <header className="bg-muted  text-center p-5">
         <div className="header-content">
           <h1 className="display-4">Welcome to Dharti Homes</h1>
           <p className="lead">Find your dream home with us</p>

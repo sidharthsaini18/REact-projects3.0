@@ -1,30 +1,36 @@
 import React from "react";
-const Success = ({ setIsSuccess }) => {
+
+const Success = ({ setIsSuccess, handleSaveChanges }) => {
   return (
     <div
       className="w-100 d-flex align-items-center position-fixed top-0 start-0"
       style={{ background: "rgba(0,0,0,0.5)", height: "100dvh", zIndex: 999 }}
     >
-      <div class="modal show fade" tabindex="-1" style={{ display: "block" }}>
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Success</h5>
+      <div
+        className="modal show fade"
+        tabindex="-1"
+        style={{ display: "block" }}
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title">Success</h5>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
+                onClick={() => setIsSuccess(false)}
               ></button>
             </div>
-            <div class="modal-body">
-              <p>Your Appoinment have been booked.</p>
+            <div className="modal-body">
+              <p>Your Appointment has been booked.</p>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-primary"
-                onClick={() => setIsSuccess(false)}
+                className="btn btn-primary"
+                onClick={handleSaveChanges}
               >
                 Save changes
               </button>

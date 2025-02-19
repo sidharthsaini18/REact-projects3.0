@@ -10,6 +10,7 @@ import Login from "./components/auth/login";
 import SignUp from "./components/auth/signup";
 import Home from "./components/home";
 import AboutUs from "./components/about us";
+import SuccessForm from "./components/sucessform";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/details/:propid" element={<Details />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/success" element={<SuccessForm />} />
       </Routes>
       <Footer />
     </BrowserRouter>
