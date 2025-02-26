@@ -71,8 +71,8 @@ const Details = () => {
           <p>Loading or No Data Found</p>
         )}
       </div>
-      <section className="d-lg-flex  justify-content-center mt-3 gap-5">
-        <div className="d-flex flex-column w-lg-50">
+      <section className="d-lg-flex  justify-content-center align-items-center mt-3 gap-5">
+        <div className="d-flex flex-column w-lg-50 m-2 ">
           <div className="pt-4 pb-4">
             <h3 className="m-0 fs-4">{activeHouse.name}</h3>
             <p className="text-secondary fs-6 m-0">{activeHouse.rooms}</p>

@@ -7,3 +7,14 @@
   width: 100%;
   z-index: 1000; /* Ensure it's above other elements */
 }
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}

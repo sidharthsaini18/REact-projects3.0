@@ -25,12 +25,12 @@ const Home = () => {
   };
 
   return (
-    <div className="container-fluid">
-      <header className="bg-muted  text-center p-5">
+    <div className="container-lg-fluid">
+      <header className="bg-muted  text-center p-1">
         <div className="header-content">
           <h1 className="display-4">Welcome to Dharti Homes</h1>
           <p className="lead">Find your dream home with us</p>
-          <p>
+          <p className="">
             Welcome to Dharti Homes, your ultimate destination for discovering
             the perfect home. At Dharti Homes, we are dedicated to providing you
             with a seamless and enjoyable experience as you explore our

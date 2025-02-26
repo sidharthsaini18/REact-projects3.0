@@ -25,8 +25,15 @@ const SuccessForm = () => {
 
   return (
     <div className="container text-center">
-      <div className="bg-success text-white border rounded">
+      <div
+        className=" text-success border rounded d-flex flex-column justify-content-center  "
+        style={{ height: "400px" }}
+      >
         <h2>Booking Success!</h2>
+        <p>Your Appointment has been booked</p>
+        <p className="text-muted fw-3 text-">
+          Please take screenshot of Appointment Details
+        </p>
         {inputData ? (
           <>
             <p>Date: {inputData.date}</p>
