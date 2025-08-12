@@ -1,0 +1,39 @@
+.card {
+  height: 25em;
+  width: 25%;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.77) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: rgb(70, 69, 69);
+  text-align: center;
+  color: white;
+}
+.card h2 {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.card p {
+  font-size: smaller;
+  margin-top: 1.5em;
+}
+
+.card h3 {
+  font-weight: 500;
+  text-decoration: underline;
+  margin: 2rem;
+}
+.logos {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.logo {
+  width: 12%;
+  /* margin: 1em; */
+  object-fit: contain;
+}
+.logo:hover {
+  height: 3em;
+  width: 15%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}

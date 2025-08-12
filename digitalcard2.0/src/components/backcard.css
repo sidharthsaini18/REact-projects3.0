@@ -1,0 +1,70 @@
+.card.back {
+  /* height: 70%; */
+  width: 21rem;
+  padding: 0.3em;
+  background-color: rgb(52, 51, 51);
+  border-radius: 0.2em;
+  color: white;
+}
+.card.back .name-title {
+  font-size: 1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  letter-spacing: 0.2em;
+}
+
+.card.back .content-box {
+  padding: 0em;
+}
+.card.back .wrapper {
+  padding: 1.1em;
+}
+
+.card.back .head-shot {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.card.front .hr-rule {
+  width: 30%;
+  margin-left: 0;
+  height: 0.15em;
+  background-color: rgb(235, 233, 233);
+  border-radius: 0.2em;
+}
+
+.card .name-title-secondary {
+  font-size: 0.9em;
+  font-weight: lighter;
+  margin-bottom: 0;
+  color: rgb(228, 226, 226);
+}
+
+.card.back .socials {
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+}
+
+.card.back .socials .text-muted {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.card.back img {
+  height: 21px;
+}
+
+.card.back .address h6 {
+  font-weight: 200;
+  font-size: 13px;
+  margin: 0;
+}
+.card.back .address .ad1 {
+  margin-top: 1em;
+}
+.card.back .address .contact-details {
+  margin-top: 1em;
+}

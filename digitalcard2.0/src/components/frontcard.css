@@ -1,0 +1,45 @@
+.card.front .name-title {
+  font-size: 1.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  letter-spacing: 0.2em;
+}
+.card {
+  /* height: 70%; */
+  width: 21rem;
+  padding: 0.3em;
+  border-radius: 0.2em;
+}
+.card.front {
+  background-color: white;
+}
+
+.card.front .content-box {
+  padding: 0em 1em;
+}
+.card.front .hr-rule {
+  width: 30%;
+  margin-left: 0;
+  height: 0.15em;
+  background-color: black;
+  border-radius: 0.2em;
+}
+
+.card.front .name-title-secondary {
+  font-size: 0.9em;
+  font-weight: lighter;
+  margin-bottom: 0;
+  color: rgb(53, 52, 52);
+}
+.card .name-title.btm {
+  font-weight: 200;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.card.front .head-shot {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 0 1em 1em;
+}
