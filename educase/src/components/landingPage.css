@@ -1,0 +1,17 @@
+.first {
+  height: 35rem;
+}
+.main {
+  background-image: url("public/assets/Essential-Books.jpg");
+  height: 30rem;
+  /* opacity: 70%; */
+
+  background-color: grey;
+  color: white;
+}
+.btn1 {
+  background-color: rgb(97, 38, 235);
+}
+.btn2 {
+  background-color: rgb(165, 68, 255);
+}
